@@ -26,8 +26,11 @@ public class Bullets : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("bullet " + collision.gameObject.tag);
+
         if (collision.CompareTag("Enemy")) 
         {
+            Debug.Log("enemy");
             bullet.velocity = Vector2.zero;
             Player._instance.playerScore += scoreAmount;
             Player._instance.UpdateUI();
@@ -37,6 +40,8 @@ public class Bullets : MonoBehaviour
         } 
         else if (collision.CompareTag("Walls"))
         {
+            Debug.Log("wall");
+
             CancelInvoke("DestroyBullet");
             Destroy(gameObject);
         }
