@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && !wasCollected)
         {
-            Debug.Log("door" + gameObject.name);
+            Debug.Log("bat bat" + gameObject.name);
             if (gameObject.name.StartsWith("Bat"))
             {
                 wasTriggered = true;

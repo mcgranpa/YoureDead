@@ -115,4 +115,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: {fileID: 8300000, guid: 46f7b8ab8a87bcb4e967456ccf72700e, type: 3}
-  pointsForPickup: 10
+  pointsForPickup: 25
+  youWinText: {fileID: 0}
+  wasCollected: 0

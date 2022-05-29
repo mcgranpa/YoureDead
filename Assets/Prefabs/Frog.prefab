@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a430b255b9a6d44ab3ec3e4581bd6bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupSound: {fileID: 8300000, guid: 7a07b35e44523084faafbaeed8bcae8a, type: 3}
+  pickupSound: {fileID: 8300000, guid: 7184f36a0c540db44960540b54383aa4, type: 3}
   pointsForPickup: 50
   youWinText: {fileID: 0}
   wasCollected: 0

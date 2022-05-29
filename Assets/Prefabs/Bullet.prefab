@@ -137,6 +137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 10
-  scoreAmount: 25
+  scoreAmount: 50
   lifeTime: 1
   bulletSound: {fileID: 8300000, guid: a49a5ce0cd488e447b5514c4c8839f2d, type: 3}

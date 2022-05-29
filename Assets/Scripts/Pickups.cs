@@ -14,11 +14,10 @@ public class Pickups : MonoBehaviour
     private bool wasTriggered = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
-   //private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && !wasCollected)
         {
-            Debug.Log("door" + gameObject.name);
+            //Debug.Log("door" + gameObject.name);
             if (gameObject.name.StartsWith("keyB"))
             {
                 wasTriggered = true;
