@@ -10,9 +10,10 @@ public class MenuManager : MonoBehaviour
 {
 
 
-    public void easyLevel()
+    public void SelectLevel(int difficulty)
     {
-        SceneManager.LoadScene("Dungeon01");
+        if (difficulty == 1) { SceneManager.LoadScene("Dungeon01"); }
+        else if (difficulty == 2) { SceneManager.LoadScene("Dungeon02"); }
     }
 
     public void exitGame()

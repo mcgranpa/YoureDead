@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     [SerializeField] TextMeshProUGUI countCountText;
     [SerializeField] TextMeshProUGUI playerScoreText;
     [SerializeField] TextMeshProUGUI frogCountText;
+    [SerializeField] TextMeshProUGUI gameTimeText;
     [SerializeField] Sprite warriorSprite;
     [SerializeField] SpriteRenderer playerSR;
     [SerializeField] AudioSource backgroundMusic;
@@ -51,7 +52,8 @@ public class Player : MonoBehaviour
     private BoxCollider2D boxCollider;
     private Rigidbody2D playerRigidBody;
     private Camera mainCam;
-
+    private bool startTimer = false;
+    private float gameTime;
 
     Vector2 moveInput;
     float playerX;
@@ -76,7 +78,13 @@ public class Player : MonoBehaviour
     {
         if (!isActive) { return; }
         Run();
-       // HandleShooting();
+        if (startTimer)
+        {
+            gameTime += Time.deltaTime;
+            double d = System.Math.Round(gameTime, 0) ;
+            gameTimeText.text = "Time " + d.ToString() + " secs";
+        }
+        // HandleShooting();
     }
 
     public void OnMove(InputValue value)
@@ -99,6 +107,10 @@ public class Player : MonoBehaviour
         playerX = moveInput.x * playerRunSpeed;
         playerY = moveInput.y * playerRunSpeed;
         playerRigidBody.velocity = new Vector2(playerX, playerY);
+        if ( (playerX != 0 || playerY != 0) && startTimer == false)
+        {
+            startTimer = true;
+        }
     }
 
     //void HandleShooting()
