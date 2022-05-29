@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     public static Player _instance;
 
     [SerializeField] float playerRunSpeed = 10f;
-    [SerializeField] AudioSource playerAudio;
+    //[SerializeField] AudioSource playerAudio;
     [SerializeField] private float shootingTimerLimit = 0.2f;
     [SerializeField] Transform bulletSpawnpos;
     [SerializeField] GameObject bullet;
@@ -25,8 +25,7 @@ public class Player : MonoBehaviour
     [SerializeField] TextMeshProUGUI frogCountText;
     [SerializeField] Sprite warriorSprite;
     [SerializeField] SpriteRenderer playerSR;
-
-
+    [SerializeField] AudioSource backgroundMusic;
 
     private float shootingTimer;
 
@@ -141,6 +140,8 @@ public class Player : MonoBehaviour
 
     public void MakeAlive()
     {
+        backgroundMusic.Stop();
         playerSR.sprite = warriorSprite;
+        
     }
 }

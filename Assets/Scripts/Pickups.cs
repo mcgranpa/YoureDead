@@ -10,7 +10,6 @@ public class Pickups : MonoBehaviour
     [SerializeField] int pointsForPickup = 10;
     [SerializeField] TextMeshProUGUI youWinText;
 
-
     public bool wasCollected = false;
     private bool wasTriggered = false;
 
