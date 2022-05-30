@@ -1,0 +1,47 @@
+Licensing Info
+****************************************************************
+UI Audio (1.0)
+
+Created/distributed by Kenney (www.kenney.nl)
+Creation date: 07-10-2012
+
+License: (Creative Commons Zero, CC0)
+http://creativecommons.org/publicdomain/zero/1.0/
+
+This content is free to use in personal, educational and commercial projects.
+Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
+
+Donate:   http://support.kenney.nl
+Patreon:  http://patreon.com/kenney/
+
+Follow on Twitter for updates:
+http://twitter.com/KenneyNL
+
+****************************************************************
+Tile Set use:
+Copyright/Attribution Notice: 
+Credit me as Michele "Buch" Bucelli and link back to my OGA profile page, 
+and credit Abram Connelly as the assets sponsor.
+****************************************************************
+Exit Door 
+SteveTheDragon
+https://opengameart.org/content/exit-door
+****************************************************************
+Warrior
+https://opengameart.org/content/animated-warrior
+Credit should be given to Calciumtrice. I can be found on twitter as @Calciumtrice if you'd like to contact me or see my work at calciumtrice.tumblr.com. I am available for comissions!
+Copyright/Attribution Notice: 
+Animated Warrior by Calciumtrice, usable under Creative Commons Attribution 3.0 license.
+****************************************************************
+Music 
+556954__sami-hiltunen__background-loop-01.wav
+https://freesound.org/people/Sami_Hiltunen/sounds/556954/
+
+415804__sunsai__mushroom-background-music.wav
+https://freesound.org/people/Sunsai/sounds/415804/
+
+frog croak
+https://freesound.org/people/BinaryMonkFlint/sounds/251938/
+
+bat
+https://freesound.org/people/Autistic%20Lucario/sounds/140210/

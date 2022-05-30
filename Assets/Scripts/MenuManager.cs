@@ -12,8 +12,8 @@ public class MenuManager : MonoBehaviour
 
     public void SelectLevel(int difficulty)
     {
-        if (difficulty == 1) { SceneManager.LoadScene("Dungeon01"); }
-        else if (difficulty == 2) { SceneManager.LoadScene("Dungeon02"); }
+        if (difficulty == 1) { SceneManager.LoadScene("Dungeon Easy"); }
+        else if (difficulty == 2) { SceneManager.LoadScene("Dungeon Hard"); }
     }
 
     public void exitGame()

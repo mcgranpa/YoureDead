@@ -95,12 +95,21 @@ public class Player : MonoBehaviour
 
     public void OnExit(InputValue value)
     {
+        // exit without warning to main menu
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    /*
+    // original exit code 
+    public void OnExit(InputValue value)
+    {
 #if UNITY_EDITOR
         EditorApplication.ExitPlaymode();
 #else
         Application.Quit(); 
 #endif    
     }
+    */
 
     private void Run()
     {
