@@ -9,6 +9,13 @@ using UnityEditor;
 public class MenuManager : MonoBehaviour
 {
 
+    [SerializeField] GameObject licenseInfo;
+
+    public void LicenseInfo(bool turnOn)
+    {
+        if (turnOn) { licenseInfo.SetActive(true); }
+        else { licenseInfo.SetActive(false); }
+    }
 
     public void SelectLevel(int difficulty)
     {
